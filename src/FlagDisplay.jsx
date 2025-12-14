@@ -12,5 +12,4 @@ const FlagDisplay = ({ data }) => {
         </div>
     )
 }
-
 export default FlagDisplay
