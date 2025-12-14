@@ -10,7 +10,7 @@ const Flag = () => {
             const data = await raw.json()
             setFlagData(data)
         }catch(err){
-            console.log(err.message)
+            console.error( "Error fetching data: " ,err)
         }
         //    console.log(data)
     }
